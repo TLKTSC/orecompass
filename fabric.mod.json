@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "orecompass",
+  "version": "1.0.0",
+  "name": "Maden Pusulası",
+  "description": "Sağ tıkla mod değiştir, yakındaki madenin yönünü söylesin.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.orecompass.OreCompassMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
